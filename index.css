@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+body{
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 20px;
+    background-color: paleturquoise;
+    border: 5px solid navy;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 1%;
+    margin: 1%;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+.color-picker{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin:1%;
+}
+.square-box{
+    height: 16px;
+    width: 16px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.container{
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 500px;
+    width: 1200px;*/
+    margin: 0px; 
+    padding: 0px;
+    align-self: center;
+}
