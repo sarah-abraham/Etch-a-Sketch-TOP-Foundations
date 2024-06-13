@@ -74,3 +74,8 @@ const colorSetter = document.querySelector(".color-setter");
 colorSetter.addEventListener('change', (event) => {
     selectedColor = event.target.value;
 })
+
+const clearButton = document.querySelector(".clear-grid");
+clearButton.addEventListener('click', () => {
+    location.reload();
+})
