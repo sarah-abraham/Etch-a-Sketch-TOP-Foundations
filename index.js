@@ -70,7 +70,7 @@ updateGridSize.addEventListener('click', () => {
 })
 
 
-// const colorSetter = document.querySelector(".color-setter");
-// colorSetter.addEventListener('change', (event) => {
-//     selectedColor = event.target.value;
-// })
+const colorSetter = document.querySelector(".color-setter");
+colorSetter.addEventListener('change', (event) => {
+    selectedColor = event.target.value;
+})
