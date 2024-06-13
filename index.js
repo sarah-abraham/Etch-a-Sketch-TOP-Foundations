@@ -20,7 +20,7 @@ function createInitialGrid(){
             container.appendChild(squareBox);
         }
     }
-    // addHoverEffect()
+    addHoverEffect()
 }
 
 createInitialGrid();
@@ -40,21 +40,21 @@ createInitialGrid();
 //     addHoverEffect();
 // }
 
-// function colorAdder(squareBox){
-//     squareBox.style.backgroundColor = selectedColor;
-// }
+function colorAdder(squareBox){
+    squareBox.style.backgroundColor = selectedColor;
+}
 
 
 
-// function addHoverEffect(){
-//     squareBox = document.querySelectorAll(".square-box");
-//     squareBox.forEach(squareBox => {
-//     squareBox.addEventListener('mouseover', () => {
-//         console.log("hovering");
-//         colorAdder(squareBox)
-//     });
-// });
-// }
+function addHoverEffect(){
+    squareBox = document.querySelectorAll(".square-box");
+    squareBox.forEach(squareBox => {
+    squareBox.addEventListener('mouseover', () => {
+        console.log("hovering");
+        colorAdder(squareBox)
+    });
+});
+}
 
 
 
